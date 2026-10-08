@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<title>Test AI's finished work before you trust it</title>
+<!--[if mso]>
+<noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
+<![endif]-->
+<style>
+  body,table,td,p,a,h2,h3,h4 { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+  table,td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+  img { -ms-interpolation-mode:bicubic; border:0; outline:none; text-decoration:none; }
+  a { text-decoration:none; }
+  body { margin:0; padding:0; width:100% !important; }
+  /* Responsive */
+  @media only screen and (max-width:600px) {
+    .qs-card { width:100% !important; }
+    .qs-pad { padding-left:24px !important; padding-right:24px !important; }
+    .qs-lead { font-size:21px !important; }
+    .qs-hook { font-size:17px !important; }
+    .qs-section-title { font-size:20px !important; }
+    .qs-brief-intro { font-size:16px !important; }
+    .qs-news-title { font-size:17px !important; }
+    .qs-news-body { font-size:16px !important; }
+  }
+  /* Dark mode (clients that honour color-scheme: Apple Mail, iOS, some Outlook) */
+  @media (prefers-color-scheme: dark) {
+    .qs-page { background:#1a1830 !important; }
+    .qs-card { background:#232042 !important; }
+    .qs-body, .qs-body p, .qs-hook { color:#e9e6f6 !important; }
+    .qs-body-copy { color:#e9e6f6 !important; background:#232042 !important; }
+    .qs-body-copy a { color:#c8bff2 !important; }
+    .qs-lead-list { color:#e9e6f6 !important; background:#232042 !important; }
+    .qs-lead-subhead { color:#73d3c8 !important; background:#232042 !important; }
+    .qs-prompt-copy { color:#f0edf9 !important; background:#2e2a54 !important; }
+    .qs-prompt-label { color:#8fe0d7 !important; }
+    .qs-greeting, .qs-lead, .qs-src-link { color:#c8bff2 !important; }
+    .qs-win { background:#2e2a54 !important; }
+    .qs-win-title { color:#5cc2b7 !important; }
+    .qs-win-body { color:#ded9f2 !important; }
+    .qs-section-title, .qs-news-title { color:#f4e3c9 !important; }
+    .qs-brief-intro, .qs-news-body { color:#ded9f2 !important; }
+    .qs-brief-card { background:#2e2a54 !important; }
+    .qs-source { background:#46406f !important; color:#d9d3f4 !important; }
+    .qs-cta-note, .qs-cta-note a { color:#c8bff2 !important; }
+    .qs-foot, .qs-foot p { color:#9a94bb !important; }
+  }
+</style>
+</head>
+<body class="qs-page" style="margin:0; padding:0; background:#e7dcc6; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;">
+  <!-- Preheader (hidden inbox preview text) -->
+  <div style="display:none; max-height:0; overflow:hidden; opacity:0; mso-hide:all;">A five-case check for work that looks finished but fails when the situation changes.&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+
+  <table role="presentation" class="qs-page" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#e7dcc6;">
+    <tr>
+      <td align="center" style="padding:32px 12px;">
+
+        <!-- Card -->
+        <table role="presentation" class="qs-card" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:600px; background:#fdfaf3; border-radius:24px; overflow:hidden;">
+
+          <!-- Header -->
+          <tr>
+            <td class="qs-pad" align="center" style="background:#46438a; padding:34px 40px 0;">
+              <img src="https://quietlysmart.ai/assets/store/logo-qs-white.png" width="180" alt="Quietly Smart" style="width:180px; max-width:180px; height:auto; display:block; margin:0 auto;">
+              <div style="color:#f4e3c9; font-size:12px; font-weight:600; letter-spacing:2.5px; text-transform:uppercase; margin-top:12px;">Run your business. Not your inbox.</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="background:#46438a; font-size:0; line-height:0;">
+              <img src="https://quietlysmart.ai/assets/store/wave.png" width="600" alt="" style="width:100%; max-width:600px; height:auto; display:block;">
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td class="qs-pad qs-body" style="padding:34px 40px 8px; color:#2e2b52; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;">
+
+              <div class="qs-greeting" style="font-size:15px; color:#46438a; font-weight:600; margin-bottom:14px;">Hi {{{contact.first_name|there}}},</div>
+              <p class="qs-hook" style="font-size:18px; line-height:1.55; color:#2e2b52; margin:0 0 6px;">AI can complete every visible step and still hand you a result that breaks as soon as the amount, wording or circumstance changes. Before you repeat the task, test the finished job against the situations your business actually sees, including one where AI should stop.</p>
+
+              <div style="border-top:1px solid #d8cfe9; margin:30px 0;"></div>
+
+              <!-- Lead -->
+              <h2 class="qs-lead" style="font-size:23px; line-height:1.3; color:#46438a; font-weight:800; letter-spacing:-0.2px; margin:6px 0 16px;">Test the finished job against real situations</h2>
+              <p class="qs-body-copy" style="font-size:16px; line-height:1.62; color:#2e2b52; background:#fdfaf3; margin:0 0 16px;">An OpenAI report dated 6 October 2026 puts the point plainly: “Getting individual steps right is not enough: the finished process must work across the situations it was designed to handle.” You can use that same check on an ordinary ChatGPT or Claude task, without building a technical system.</p>
+              <h3 class="qs-lead-subhead" style="font-size:14px; font-weight:700; color:#277c73; background:#fdfaf3; text-transform:uppercase; letter-spacing:1.2px; margin:26px 0 8px;">The five-case check</h3>
+              <p class="qs-body-copy" style="font-size:16px; line-height:1.62; color:#2e2b52; background:#fdfaf3; margin:0 0 16px;">After AI drafts the result, run this sequence:</p>
+              <ol class="qs-lead-list" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; font-size:16px; line-height:1.62; color:#2e2b52; background:#fdfaf3; margin:0 0 16px; padding-left:22px;">
+                <li style="margin-bottom:8px;">Keep the draft unchanged so you can see what it actually does.</li>
+                <li style="margin-bottom:8px;">Write three ordinary cases that represent the work you usually receive.</li>
+                <li style="margin-bottom:8px;">Add one awkward case where the wording, amount or circumstance is unusual.</li>
+                <li style="margin-bottom:8px;">Add one stop case where AI should not decide without a person.</li>
+                <li style="margin-bottom:8px;">Ask for a pass/fail table showing the failed requirement and the human decision still needed.</li>
+              </ol>
+              <div class="qs-prompt-copy" style="font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace; font-size:15px; line-height:1.68; color:#2e2b52; background:#efeafc; border:1px solid #d4c9ee; border-radius:16px; margin:4px 0 18px; padding:20px 22px;">
+                <span class="qs-prompt-label" style="display:block; color:#287a72; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif; font-size:11px; font-weight:800; letter-spacing:1.2px; text-transform:uppercase; margin-bottom:12px;">Copy-paste prompt</span>Test the draft below against five scenarios.<br><br>Draft: [paste the draft]<br><br>Scenarios:<br>1. [ordinary case 1]<br>2. [ordinary case 2]<br>3. [ordinary case 3]<br>4. [awkward case]<br>5. [case where AI should stop]<br><br>Return a table with these columns: Scenario | Pass/fail | Requirement tested | Failed requirement or evidence | Human decision still needed.<br><br>Do not rewrite the draft yet. Mark a scenario FAIL if a requirement is missing, ambiguous or sent down the wrong path. For the stop case, say STOP when the draft should not decide without a person.
+              </div>
+              <p class="qs-body-copy" style="font-size:16px; line-height:1.62; color:#2e2b52; background:#fdfaf3; margin:0 0 16px;">Fictional example: AI drafts a supplier onboarding process. Test it against a low-value purchase, a high-value purchase, a missing security check, an unusual contract term and an unclear request. The point is not to ask whether the process looks sensible. It is to see whether each case reaches the right path.</p>
+              <p class="qs-body-copy" style="font-size:16px; line-height:1.62; color:#2e2b52; background:#fdfaf3; margin:0 0 16px;">Before the check, the instruction might read: “Process every supplier request using the onboarding steps.” After the check, it might read: “Route high-value purchases to Finance, requests needing security review to Security, and nonstandard terms to Legal. If a required check is missing or the request is unclear, stop and ask a person.” That second version makes the boundaries visible.</p>
+              <p class="qs-body-copy" style="font-size:16px; line-height:1.62; color:#2e2b52; background:#fdfaf3; margin:0 0 16px;">When the table comes back, look for three things: a pass/fail decision for every case, the requirement that caused each failure, and a named human decision for the stop case. A useful result does not merely reassure you. It shows what can be repeated, what needs fixing and where the draft should hand control back to you.</p>
+              <p class="qs-body-copy" style="font-size:16px; line-height:1.62; color:#2e2b52; background:#fdfaf3; margin:0 0 16px;">Do this before repeating a task. It separates a result that looks complete on screen from one that holds up in ordinary work.</p>
+              <div style="border-top:1px solid #d8cfe9; margin:30px 0;"></div>
+
+              <!-- In brief -->
+              <h3 class="qs-section-title" style="font-size:21px; line-height:1.3; font-weight:800; color:#46438a; letter-spacing:-0.1px; margin:0 0 8px;">In brief</h3>
+              <div class="qs-brief-intro" style="font-size:16px; line-height:1.6; color:#5f5a80; margin-bottom:20px;">One warning worth reading if AI touches money or customer information.</div>
+              <table role="presentation" class="qs-brief-card" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f1edf9; border-radius:16px; margin-bottom:14px;">
+                <tr>
+                  <td valign="top" style="padding:20px 22px; color:#2e2b52;">
+                    <span class="qs-source" style="display:inline-block; background:#ddd6f3; color:#59548a; font-size:11px; font-weight:700; letter-spacing:0.8px; text-transform:uppercase; padding:4px 9px; border-radius:999px; margin-bottom:9px;">Worth being careful about</span>
+                    <a href="https://blog.xero.com/product-updates/cybersecurity-awareness-month-tips/" class="qs-news-title" style="display:block; color:#46438a; font-size:17px; line-height:1.45; text-decoration:underline; text-decoration-color:#b0a4ef; text-decoration-thickness:1.5px; text-underline-offset:3px; font-weight:700;">Xero warns AI is making scams easier for small businesses</a>
+                    <span class="qs-news-body" style="display:block; color:#4f4a70; line-height:1.62; margin-top:8px; font-size:16px;">Xero’s guide explains how to protect your organisation, money and customer information as scammers use smarter AI tools. It offers practical checks for passwords and online account access. Most of the habits are free and apply beyond Xero.</span>
+                  </td>
+                </tr>
+              </table>
+              <!-- P.S. -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:30px 0 4px;">
+                <tr><td style="background:#46438a; border-radius:20px; padding:24px 28px;">
+                  <p style="color:#efeafc; font-size:15px; line-height:1.6; margin:0;">P.S. If you try this on a real task, reply with the awkward case that exposed the biggest gap.</p>
+                </td></tr>
+              </table>
+
+              <div class="qs-greeting" style="font-size:16px; color:#46438a; font-weight:600; margin:28px 0 4px;">See you in a fortnight,<br>Matt</div>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td class="qs-pad qs-foot" align="center" style="padding:26px 40px 34px; text-align:center; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;">
+              <p style="font-size:13px; font-weight:700; color:#46438a; margin:0 0 8px;">Quietly Smart &middot; Matt Wills</p>
+              <p style="font-size:12px; line-height:1.7; color:#8f89a8; margin:0 0 8px;"><br>Reply any time, I read everything.</p>
+              <p style="font-size:12px; line-height:1.7; color:#8f89a8; margin:0 0 8px;">Free guide and 3-minute task check: <a href="https://quietlysmart.ai/free-help/?utm_source=newsletter" style="color:#46438a; text-decoration:underline;">quietlysmart.ai/free-help</a></p>
+              <p style="font-size:12px; line-height:1.7; color:#8f89a8; margin:0;"><a href="{{{RESEND_UNSUBSCRIBE_URL}}}" style="color:#46438a; text-decoration:underline;">Unsubscribe</a> &middot; <a href="{{{RESEND_UNSUBSCRIBE_URL}}}" style="color:#46438a; text-decoration:underline;">Update preferences</a></p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
